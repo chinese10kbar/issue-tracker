@@ -6,50 +6,46 @@ body:
   - type: markdown
     attributes:
       value: |
-        Thanks for taking the time to fill out this bug report!
+        Thank you for helping us improve our server by reporting this bug! Please fill out the form below with as much detail as possible.
   - type: checkboxes
     attributes:
-      label: Is there an existing issue for this?
-      description: Please search to see if an issue already exists for the bug you encountered.
+      label: Existing Issue Check
+      description: Have you checked if there's already an existing issue for this bug?
       options:
-      - label: I have searched the existing issues
-        required: true
+        - label: Yes, I've checked existing issues
+          required: true
   - type: textarea
     id: desc
     attributes:
       label: Description
-      description: Describe the issue you are facing.
+      description: Please provide a detailed description of the issue you are facing.
+      placeholder: "Enter your description here..."
     validations:
       required: true
   - type: textarea
     id: expected
     attributes:
-      label: Expected behaviour
-      description: Describe the issue you are facing.
+      label: Expected Behavior
+      description: What behavior did you expect to see?
+      placeholder: "Describe the expected behavior..."
     validations:
       required: true
   - type: textarea
     id: repro
     attributes:
-      label: Steps to reproduce
-      description: Steps to reproduce the issue.
+      label: Steps to Reproduce
+      description: Please provide step-by-step instructions on how to reproduce the issue.
       placeholder: |
-          1. Run this command...
-          2. Do this animation...
-          2. Press this key..
+        1. Run this command...
+        2. Do this action...
+        3. Press this key...
     validations:
       required: true
   - type: input
     id: texture
     attributes:
-      label: Any Texture Packs? (If so list)
-      description: Any texture packs you may be using (e.g NVE)
-      placeholder: NVE
+      label: Texture Packs
+      description: If applicable, list any texture packs you are using (e.g., NVE).
+      placeholder: "Enter texture packs used (if any)"
     validations:
       required: false
-
-      
-    
-    
-      
-      
